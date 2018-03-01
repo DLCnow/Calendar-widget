@@ -11,3 +11,6 @@ My own calendar small component
 ![view](./img/month.png)
 ##### 年代视图
 ![view](./img/year.png)
+
+### 预览（preview）
+ https://dlcnow.github.io/Calendar-widget/
