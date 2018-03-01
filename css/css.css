@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+/* 最大盒子 */
+.wrap{
+    width: 350px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 50%;
+    left: -175px;
+}
+
+/* monthview样式设置 */
+.monthviewwrap table ,
+.monthviewwrap tr ,
+.monthviewwrap td{
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    font-family: "consolas";
+    text-align: center;
+    line-height: 50px;
+}
+
+.monthviewwrap td{
+    width: 50px;
+    height: 50px;
+}
+
+.grey{
+    background-color: rgb(224, 224, 224);
+}
+
+/* monthchanger样式设置 */
+
+.monthchanger{
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.monthchanger h3 {
+    float: left;
+    margin-left: 18%;
+    
+}
+.monthchanger h3 span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.monthchanger button{
+    width: 60px;
+    height: 35px;
+}
+
+.monthchanger button:nth-of-type(1) {
+    float: left;
+}
+
+.monthchanger button:nth-of-type(2){
+    float: right;
+}
+
+/* 年代视图的样式 */
+.decadeviewwrap{
+    width: 350px;
+}
+
+.decadeviewwrap table{
+    width: 350px;
+    
+    border: 3px solid #eee;
+}
+
+.decadeviewwrap td{
+    height: 25px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+
+.decadeviewwrap td:hover{
+    background-color: skyblue;
+    /* transition: all ease 0.5s 0s; */
+}
+
+.cur{
+    font-weight: bold;
+    color: red;
+    font-size: 18px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+/* decadechanger样式设置 */
+.decadechanger{
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.decadechanger h3 {
+    float: left;
+    margin-left: 18%;
+    
+}
+.decadechanger h3 span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.decadechanger button{
+    width: 60px;
+    height: 35px;
+}
+
+.decadechanger button:nth-of-type(1) {
+    float: left;
+}
+
+.decadechanger button:nth-of-type(2){
+    float: right;
+}
+
+/* yearchanger样式 */
+.yearchangerwrap{
+    margin: 25px auto;
+    overflow: hidden;
+}
+
+.yearchangerwrap h3 {
+    float: left;
+    margin-left: 18%;
+    
+}
+.yearchangerwrap h3 span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.yearchangerwrap button{
+    width: 60px;
+    height: 35px;
+}
+
+.yearchangerwrap button:nth-of-type(1) {
+    float: left;
+}
+
+.yearchangerwrap button:nth-of-type(2){
+    float: right;
+}
+
+/* yearview样式 */
+.yearviewwrap table ,
+.yearviewwrap tr ,
+.yearviewwrap td{
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    font-family: "consolas";
+    text-align: center;
+    line-height: 50px;
+}
+
+.yearviewwrap td{
+    width: 175px;
+}
+
+.yearviewwrap td:hover{
+    background-color: skyblue;
+}
